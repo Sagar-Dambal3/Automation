@@ -1,4 +1,4 @@
-package com.qspider.handlingPopups;
+package com.qspiders.handlingPopups;
 
 import java.time.Duration;
 import java.util.Iterator;

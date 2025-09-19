@@ -1,4 +1,4 @@
-	package com.qspider.handlingPopups;
+	package com.qspiders.handlingPopups;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;

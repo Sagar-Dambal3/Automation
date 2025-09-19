@@ -1,4 +1,4 @@
-package com.qpiders.handlingFrames;
+package com.qspiders.handlingFrames;
 
 import java.time.Duration;
 

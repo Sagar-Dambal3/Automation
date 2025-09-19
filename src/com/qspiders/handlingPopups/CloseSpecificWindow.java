@@ -1,4 +1,4 @@
-package com.qspider.handlingPopups;
+package com.qspiders.handlingPopups;
 
 import java.time.Duration;
 import java.util.Scanner;
@@ -8,8 +8,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class TransferToSpecificWindow {
-
+public class CloseSpecificWindow {
 	public static void main(String[] args) throws InterruptedException {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the title: ");
@@ -35,10 +34,9 @@ public class TransferToSpecificWindow {
 			String actualTitle = driver.getTitle();
 			
 			if (actualTitle.contains(input)) {
-				break; //It will transfer the control to the specific window
+				driver.close(); //It will close the specific window
 			}
 		}
-		System.out.println(driver.getTitle());
+		
 	}
-
 }

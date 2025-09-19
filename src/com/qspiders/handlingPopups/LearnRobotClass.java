@@ -1,4 +1,4 @@
-package com.qspider.handlingPopups;
+package com.qspiders.handlingPopups;
 
 import java.awt.AWTException;
 import java.awt.Robot;
