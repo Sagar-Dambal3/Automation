@@ -1,33 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
-    <line>
-      <![CDATA[Hello]]>
-    </line>
-    <line>
-      <![CDATA[World]]>
-    </line>
   </reporter-output>
-  <suite started-at="2025-09-22T13:30:55 IST" name="Default suite" finished-at="2025-09-22T13:30:55 IST" duration-ms="159">
+  <suite started-at="2025-09-24T14:03:27 IST" name="Default suite" finished-at="2025-09-24T14:03:49 IST" duration-ms="22304">
     <groups>
     </groups>
-    <test started-at="2025-09-22T13:30:55 IST" name="Default test" finished-at="2025-09-22T13:30:55 IST" duration-ms="159">
-      <class name="com.qspiders.testng.demo">
-        <test-method signature="demoA()[pri:0, instance:com.qspiders.testng.demo@399f45b1]" started-at="2025-09-22T13:30:55 IST" name="demoA" finished-at="2025-09-22T13:30:55 IST" duration-ms="32" status="PASS">
+    <test started-at="2025-09-24T14:03:27 IST" name="Default test" finished-at="2025-09-24T14:03:49 IST" duration-ms="22304">
+      <class name="com.qspiders.testng.InstagramAssertions">
+        <test-method signature="verifyInstagramTitle()[pri:0, instance:com.qspiders.testng.InstagramAssertions@3a93b025]" started-at="2025-09-24T14:03:27 IST" name="verifyInstagramTitle" finished-at="2025-09-24T14:03:41 IST" duration-ms="13729" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[Hello]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- demoA -->
-        <test-method signature="demoB()[pri:0, instance:com.qspiders.testng.demo@399f45b1]" started-at="2025-09-22T13:30:55 IST" name="demoB" finished-at="2025-09-22T13:30:55 IST" duration-ms="7" status="PASS">
+        </test-method> <!-- verifyInstagramTitle -->
+        <test-method signature="verifyLoginButton()[pri:0, instance:com.qspiders.testng.InstagramAssertions@3a93b025]" started-at="2025-09-24T14:03:41 IST" name="verifyLoginButton" finished-at="2025-09-24T14:03:49 IST" duration-ms="8441" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[World]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- demoB -->
-      </class> <!-- com.qspiders.testng.demo -->
+        </test-method> <!-- verifyLoginButton -->
+      </class> <!-- com.qspiders.testng.InstagramAssertions -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
