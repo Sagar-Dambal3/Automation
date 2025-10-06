@@ -23,15 +23,17 @@ public class BaseClass {
 	}
 	
 	@BeforeMethod(groups = {"smokeTest","regressionTest"})
-	public void login() {
+	public void login() throws InterruptedException {
 		driver.findElement(By.id("username")).sendKeys("admin");
 		driver.findElement(By.name("pwd")).sendKeys("manager");
 		driver.findElement(By.xpath("//div[text()='Login ']")).click();
+		Thread.sleep(3000);
 		Reporter.log("login",true);
 	}
 	
 	@AfterMethod(groups = {"smokeTest","regressionTest"})
-	public void logout() {
+	public void logout() throws InterruptedException {
+		Thread.sleep(3000);
 		driver.findElement(By.id("logoutLink")).click();
 		Reporter.log("logout",true);
 	}

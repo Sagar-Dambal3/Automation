@@ -1,5 +1,6 @@
 package com.actitime.testscript;
 
+import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
@@ -12,6 +13,7 @@ public class UserModule extends BaseClass{
 	}
 	@Test(groups = "regressionTest")
 	public void deleteUser() {
+		Assert.fail();
 		Reporter.log("deleteUser",true);
 	}
 	@Test(groups = "regressionTest")
